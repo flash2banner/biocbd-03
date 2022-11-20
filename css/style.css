@@ -3510,14 +3510,14 @@ p:not(:last-child) {
   }
 
   .main-catalog__filter {
-    padding: 0 15px;
+    padding: 15px 15px 30px;
     width: 100%;
-    height: calc(100vh - 160px - 122px);
+    height: calc(100vh - 159px - 122px);
     overflow: auto;
     display: block;
     position: absolute;
     left: -110%;
-    top: 160px;
+    top: 159px;
     z-index: 2;
     transition: all 0.4s ease;
   }
@@ -3778,8 +3778,6 @@ p:not(:last-child) {
   }
 }
 
-
-
 @media (max-width: 460px) {
   .ordering__box-item {
     width: 100%;
@@ -3809,13 +3807,11 @@ p:not(:last-child) {
   }
 }
 
-
 @media (max-width: 405px) {
   .main-catalog__item {
     max-width: calc((100% - 0px) / 1);
   }
 }
-
 
 @media (max-width: 400px) {
   .header__main-panel {
