@@ -3778,11 +3778,7 @@ p:not(:last-child) {
   }
 }
 
-@media (max-width: 600px) {
-  .main-catalog__item {
-    max-width: calc((100% - 15px) / 1);
-  }
-}
+
 
 @media (max-width: 460px) {
   .ordering__box-item {
@@ -3812,6 +3808,14 @@ p:not(:last-child) {
     margin-left: 10px;
   }
 }
+
+
+@media (max-width: 405px) {
+  .main-catalog__item {
+    max-width: calc((100% - 0px) / 1);
+  }
+}
+
 
 @media (max-width: 400px) {
   .header__main-panel {
